@@ -1,0 +1,22 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore build system files
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Ignore IDE-specific files
+.vscode/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
